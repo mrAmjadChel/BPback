@@ -23,5 +23,19 @@
     "oracledb": "^6.1.0",
     "slugify": "^1.6.6",
     "uuid": "^9.0.0"
+  },
+  "jest":{ 
+    "coverageThreshold": {
+      "global": { 
+        "branches": 80,
+        "functions": 80, 
+        "lines": 80,
+        "statements": 80 
+      } 
+    },
+    "coveragePathIgnorePatterns": [ 
+      "src/index.js",
+      "src/reportWebVitals.js" 
+    ] 
   }
 }
