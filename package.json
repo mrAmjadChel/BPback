@@ -34,8 +34,7 @@
       } 
     },
     "coveragePathIgnorePatterns": [ 
-      "src/index.js",
-      "src/reportWebVitals.js" 
+      "server.js"
     ] 
   }
 }
