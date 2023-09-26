@@ -1,15 +1,20 @@
 {
     "version": 2,
     "builds": [
-        {
-            "src": "./controllers/blogcontroller.js",
-            "use": "@now/node"
-        }
+      {
+        "src": "server.js", 
+        "use": "@now/node" 
+      }
     ],
     "routes": [
-        {
-            "src": "/(.*)",
-            "dest": "./routes/blog.js"
-        }
+      {
+        "src": "/api/(.*)", 
+        "dest": "server.js" 
+      },
+      {
+        "src": "/(.*)", 
+        "dest": "server.js" 
+      }
     ]
-}
+  }
+  
