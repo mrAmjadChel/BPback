@@ -18,7 +18,7 @@
     ],
     "env": {
       "ORACLE_DB_USER": "HR",
-      "ORACLE_DB_PASSWORD": "123",
+      "ORACLE_DB_PASSWORD": 123,
       "ORACLE_DB_CONNECT_STRING": "localhost/xe"
     }
   }
