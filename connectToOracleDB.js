@@ -6,12 +6,12 @@ async function connectToOracleDB() {
   try {
     
     const connection = await oracledb.getConnection({
-        /*user: process.env.ORACLE_DB_USER,
+        user: process.env.ORACLE_DB_USER,
         password: process.env.ORACLE_DB_PASSWORD,
-        connectString: process.env.ORACLE_DB_CONNECT_STRING*/
-        user: "hr",
+        connectString: process.env.ORACLE_DB_CONNECT_STRING
+        /*user: "hr",
         password: "123",
-        connectString: "localhost/xe"
+        connectString: "localhost/xe"*/
 
     });
 
